@@ -13,5 +13,6 @@ public class Hello : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        transform.Rotate(new Vector3(3, 0, 0));
     }
 }
